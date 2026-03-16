@@ -1,0 +1,178 @@
+/* Banner Section */
+#banner {
+    height: 98vh;
+    background: url(books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #C27933;
+}
+
+
+
+/* Button Styles */
+.btn {
+    padding: 15px 30px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    border-radius: 60px;
+    transition: all 0.5s ease;
+}
+
+.btn-brand {
+    background-color: rgb(5, 5, 5);
+    color: #dee4e0;
+    border: 2px solid #FFF;
+}
+
+.btn-brand:hover {
+    border: 2px solid #FFF;
+}
+
+.btn-outline-light {
+    border-color: antiquewhite;
+    color: blanchedalmond;
+    border-radius: 0;
+}
+
+/* General Section Styles */
+section {
+    padding: 100px 0;
+}
+
+/* About Section */
+#about h3 {
+    font-size: 55px;
+    width: 40px;
+}
+
+#about img {
+    height: 300px;
+    width: 300px;
+}
+
+/* Services Section */
+#services {
+    background-color: rgb(179, 130, 66);
+}
+
+#services .card {
+    margin-top: 20px;
+}
+
+#services .btn-brand:hover {
+    background-color: rgb(75, 43, 0) !important;
+    color: #333;
+}
+
+/* Card Styles */
+.card-img-top {
+    width: 280px;
+}
+
+.card {
+    transition: all 0.4s ease;
+    background-color: rgb(204, 153, 86);
+    color: black;
+
+}
+
+/* Testimonials Section */
+.testimonials {
+    border: 2px solid rgba(15, 247, 35, 0.315);
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.testimonials img {
+    width: 75px;
+    border-radius: 30px;
+}
+
+.testimonials a {
+    color: antiquewhite;
+}
+
+/* Navigation */
+.navar {
+    box-shadow: 0 0 5px rgb(190, 190, 195);
+}
+
+/* FAQ Section */
+#fac {
+    background-color: bisque;
+}
+
+.faq-selection {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: antiquewhite;
+    border: none;
+    border-bottom: 1px solid #dee4e0;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(57, 149, 57);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: antiquewhite;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: antiquewhite;
+    color: #333;
+}
+
+.accordion-button:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+/* CTA Section */
+#cta {
+    height: 98vh;
+    background: linear-gradient(to right, hsla(213, 69%, 82%, 0.856), rgba(25, 26, 25, 0.315)), url('123.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Footer */
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: bisque;
+}
+
+footer ul.listunstyled li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 767px) {
+    #about img {
+        height: 300px;
+        width: 300px;
+    }
+    
+    section {
+        padding: 60px 20px;
+    }
+}

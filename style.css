@@ -1,7 +1,7 @@
 /* Banner Section */
 #banner {
     height: 98vh;
-    background: url(books.jpg);
+    background-color: #97550a;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
